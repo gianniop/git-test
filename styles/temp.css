@@ -1,0 +1,34 @@
+body{
+    padding-block: 3rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.header-demo{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-demo .right{
+    align-items: center;
+}
+
+
+.block{
+    height: 100px;
+    background-color: #e1e1e1;
+}
+
+.grid{
+    margin-bottom: 1rem;
+}
+
+.socials-wrapper > div{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+.socials-wrapper > div:first-of-type,
+.socials-wrapper > div:nth-of-type(3),
+.socials-wrapper > div:last-of-type{
+    background-color: #fff;
+}
